@@ -11,11 +11,79 @@ category_keywords = {
             "_keywords": ["coffee", "espresso", "latte", "pastry", "mocha", "croissant", "brunch"]
         }
     },
-    "accommodation": ["hotel", "motel", "hostel", "bnb", "lodging", "stay", "suite", "room", "resort"],
+    "accommodation": {
+        "_keywords": ["accommodation", "lodging", "overnight stay", "place to sleep", "stay", "room", "booking"],
+    
+        "bed_and_breakfast": {
+            "_keywords": ["bed and breakfast", "b&b", "morning meal", "cozy stay", "small inn"]
+        },
+        "cabin": {
+            "_keywords": ["cabin", "wooden house", "forest stay", "mountain cabin", "remote shelter"]
+        },
+        "campground": {
+            "_keywords": ["campground", "tent site", "camping", "firepit", "outdoor stay"]
+        },
+        "cottage": {
+            "_keywords": ["cottage", "small house", "charming stay", "village", "rural house"]
+        },
+        "guest_house": {
+            "_keywords": ["guest house", "home stay", "private room", "local house", "visitor accommodation"]
+        },
+        "health_retreats": {
+            "_keywords": ["health retreat", "wellness", "spa resort", "detox", "healing stay"]
+        },
+        "holiday_rental_home": {
+            "_keywords": ["vacation rental", "holiday home", "airbnb", "short-term rental"]
+        },
+        "hostel": {
+            "_keywords": ["hostel", "shared room", "budget travel", "backpacker", "dormitory"]
+        },
+        "hotel": {
+            "_keywords": ["hotel", "reception", "check-in", "luxury stay", "hotel room"]
+        },
+        "inn": {
+            "_keywords": ["inn", "traditional lodging", "old-style stay", "rest stop", "tavern"]
+        },
+        "lodge": {
+            "_keywords": ["lodge", "ski lodge", "mountain stay", "hunting lodge", "retreat"]
+        },
+        "motel": {
+            "_keywords": ["motel", "motor inn", "roadside stay", "car access", "budget lodging"]
+        },
+        "mountain_huts": {
+            "_keywords": ["mountain hut", "alpine shelter", "high altitude", "hiking refuge"]
+        },
+        "resort": {
+            "_keywords": ["resort", "luxury stay", "pool", "spa", "all-inclusive"]
+        },
+        "rv_park": {
+            "_keywords": ["rv park", "recreational vehicle", "mobile home", "trailer", "camping site"]
+        },
+        "service_apartments": {
+            "_keywords": ["serviced apartment", "long stay", "kitchenette", "extended stay", "corporate rental"]
+        }
+    },
+
     "automotive": ["car", "vehicle", "repair", "auto", "mechanic", "garage", "dealership", "tire", "oil change"],
     "arts_and_entertainment": ["theater", "music", "concert", "gallery", "film", "comedy", "cinema", "stage", "performance"],
     "attractions_and_activities": ["amusement", "park", "zoo", "arcade", "adventure", "tourist", "landmark", "attraction"],
-    "active_life": ["fitness", "gym", "yoga", "exercise", "outdoor", "sports", "recreation", "workout", "hiking", "skate"],
+    "active_life": {
+        "_keywords": ["active", "outdoor", "sports", "fitness", "recreation", "exercise", "adventure", "wellness"],
+    
+        "sports_and_recreation_venue": {
+            "_keywords": ["sports venue", "gym", "stadium", "arena", "track", "court", "field", "sports center"]
+        },
+        "sports_and_fitness_instruction": {
+            "_keywords": ["personal training", "fitness class", "yoga", "pilates", "swimming lessons", "martial arts", "fitness coach", "sports training", "instruction", "bootcamp"]
+        },
+        "sports_club_and_league": {
+            "_keywords": ["sports club", "league", "basketball team", "soccer club", "tennis club", "youth league", "athletic organization", "recreational league"]
+        },
+        "sports_and_recreation_rental_and_services": {
+            "_keywords": ["equipment rental", "bike rental", "kayak rental", "ski rental", "gear rental", "outdoor services", "fitness services"]
+        }
+    },
+
     "beauty_and_spa": ["spa", "salon", "nails", "massage", "facial", "waxing", "hair", "makeup", "beauty"],
     "education": {
         "_keywords": ["school", "college", "university", "academy", "training", "course", "tutoring", "education", "student", "learning"],
@@ -70,7 +138,23 @@ category_keywords = {
         }
     },
     "financial_service": ["bank", "insurance", "finance", "atm", "account", "credit", "mortgage", "loan", "investment"],
-    "private_establishments_and_corporates": ["corporate", "headquarters", "company", "business", "office", "enterprise", "hq"],
+    "private_establishments_and_corporates": {
+        "_keywords": ["corporate", "company", "enterprise", "private firm", "business entity", "office"],
+    
+        "corporate_entertainment_services": {
+            "_keywords": ["corporate event", "team building", "company retreat", "business entertainment", "corporate party", "incentive event", "employee engagement"]
+        },
+        "corporate_gift_supplier": {
+            "_keywords": ["corporate gifts", "branded merchandise", "promotional items", "gift supplier", "business gifts", "swag"]
+        },
+        "corporate_office": {
+            "_keywords": ["headquarters", "business office", "company office", "corporate office", "main office", "regional office"]
+        },
+        "private_equity_firm": {
+            "_keywords": ["private equity", "investment firm", "venture capital", "buyout", "portfolio company", "PE firm", "financial sponsor"]
+        }
+    },
+
     "retail": ["store", "shop", "mall", "retail", "outlet", "boutique", "clothing", "grocery", "supermarket", "shopping"],
     "health_and_medical": ["clinic", "hospital", "doctor", "dentist", "medical", "healthcare", "nurse", "treatment", "surgery"],
     "pets": {
