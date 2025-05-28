@@ -12,7 +12,7 @@ category_keywords = {
         }
     },
     "accommodation": {
-        "_keywords": ["accommodation", "lodging", "overnight stay", "place to sleep", "stay", "room", "booking"],
+        "_keywords": ["accommodation", "lodging", "overnight stay", "stay", "room", "booking"],
     
         "bed_and_breakfast": {
             "_keywords": ["bed and breakfast", "b&b", "morning meal", "cozy stay", "small inn"]
