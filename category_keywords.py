@@ -133,11 +133,104 @@ category_keywords = {
         }
     },
     "public_service_and_government": ["city", "county", "government", "dmv", "courthouse", "police", "fire", "public", "service"],
-    "religious_organization": ["church", "temple", "mosque", "synagogue", "religious", "worship", "faith", "congregation"],
+    "religious_organization": {
+        "_keywords": [
+            "religious", "worship", "faith", "spiritual", "prayer", "sacred", "holy site", "place of worship"
+        ],
+    
+        "church_cathedral": {
+            "_keywords": ["church", "cathedral", "christian", "mass", "basilica"]
+        },
+        "mission": {
+            "_keywords": ["mission", "evangelical", "outreach", "christian aid", "religious service"]
+        },
+        "buddhist_temple": {
+            "_keywords": ["buddhist", "monk", "temple", "zen", "dharma", "meditation"]
+        },
+        "convents_and_monasteries": {
+            "_keywords": ["convent", "monastery", "nuns", "monks", "cloister", "abbey"]
+        },
+        "hindu_temple": {
+            "_keywords": ["hindu", "mandir", "puja", "shiva", "vishnu", "ganesha"]
+        },
+        "mosque": {
+            "_keywords": ["mosque", "muslim", "islam", "imam", "prayer", "salah"]
+        },
+        "religious_destination": {
+            "_keywords": ["pilgrimage", "sacred site", "holy trip", "religious travel", "shrine"]
+        },
+        "shinto_shrines": {
+            "_keywords": ["shinto", "shrine", "kami", "torii gate", "japanese religion"]
+        },
+        "sikh_temple": {
+            "_keywords": ["sikh", "gurdwara", "guru", "langar", "punjabi", "religion"]
+        },
+        "synagogue": {
+            "_keywords": ["synagogue", "jewish", "torah", "rabbi", "judaism"]
+        },
+        "temple": {
+            "_keywords": ["temple", "worship", "altar", "ritual", "spiritual center"]
+        }
+    },
     "real_estate": ["real estate", "broker", "agent", "property", "housing", "apartment", "condo", "listing", "realtor"],
     "travel": ["airport", "flight", "travel", "tourism", "visa", "passport", "itinerary", "trip", "agency"],
     "mass_media": ["radio", "tv", "television", "media", "news", "magazine", "newspaper", "press", "station"],
     "home_service": ["plumbing", "electrician", "hvac", "appliance", "repair", "contractor", "cleaning", "maintenance"],
     "professional_services": ["consultant", "lawyer", "accountant", "notary", "therapy", "translation", "professional", "service"],
-    "structure_and_geography": ["bridge", "mountain", "valley", "river", "park", "building", "monument", "landmark", "structure"]
+    "structure_and_geography": {
+        "_keywords": ["landmark", "structure", "geographic feature", "natural formation", "scenic", "terrain", "landform"],
+    
+        "bridge": {
+            "_keywords": ["bridge", "overpass", "viaduct", "footbridge", "suspension bridge"]
+        },
+        "canal": {
+            "_keywords": ["canal", "waterway", "manmade channel", "irrigation canal"]
+        },
+        "dam": {
+            "_keywords": ["dam", "hydroelectric", "reservoir", "water barrier"]
+        },
+        "desert": {
+            "_keywords": ["desert", "arid region", "sand dunes", "dry climate"]
+        },
+        "forest": {
+            "_keywords": ["forest", "woodland", "trees", "nature walk", "conservation area"]
+        },
+        "geologic_formation": {
+            "_keywords": ["rock formation", "cliff", "canyon", "geological", "strata"]
+        },
+        "island": {
+            "_keywords": ["island", "archipelago", "coastline", "tropical", "offshore"]
+        },
+        "mountain": {
+            "_keywords": ["mountain", "peak", "ridge", "elevation", "summit"]
+        },
+        "natural_hot_springs": {
+            "_keywords": ["hot springs", "thermal water", "natural spa", "geothermal"]
+        },
+        "nature_reserve": {
+            "_keywords": ["wildlife reserve", "protected area", "ecological preserve", "natural park"]
+        },
+        "pier": {
+            "_keywords": ["pier", "boardwalk", "dock", "jetty", "harbor platform"]
+        },
+        "public_plaza": {
+            "_keywords": ["plaza", "public square", "town center", "open space"]
+        },
+        "quay": {
+            "_keywords": ["quay", "dockside", "harborfront", "embankment"]
+        },
+        "river": {
+            "_keywords": ["river", "stream", "creek", "watercourse", "flowing water"]
+        },
+        "skyscraper": {
+            "_keywords": ["skyscraper", "high-rise", "tall building", "urban landmark"]
+        },
+        "tower": {
+            "_keywords": ["tower", "observation tower", "signal tower", "radio tower"]
+        },
+        "weir": {
+            "_keywords": ["weir", "low dam", "stream barrier", "river flow control"]
+        }
+    }
 }
+
