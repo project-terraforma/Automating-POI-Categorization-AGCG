@@ -64,7 +64,62 @@ category_keywords = {
         }
     },
 
-    "automotive": ["car", "vehicle", "repair", "auto", "mechanic", "garage", "dealership", "tire", "oil change"],
+    "automotive": {
+        "_keywords": ["automotive", "vehicle", "motorized", "transportation", "auto-related", "motor service"],
+    
+        "automotive_dealer": {
+            "_keywords": ["car dealership", "showroom", "auto sales", "vehicle lot", "certified pre-owned", "dealer inventory"]
+        },
+        "car_buyer": {
+            "_keywords": ["car purchase", "buy a car", "trade-in", "cash for cars", "vehicle buyer"]
+        },
+        "automotive_services_and_repair": {
+            "_keywords": ["auto service", "car repair", "maintenance garage", "mechanic shop", "service bay", "vehicle inspection"]
+        },
+        "automotive_parts_and_accessories": {
+            "_keywords": ["car parts", "auto accessories", "replacement parts", "aftermarket", "brake pads", "oil filter", "windshield wipers"]
+        },
+        "aircraft_dealer": {
+            "_keywords": ["aircraft sales", "jet dealer", "airplane showroom", "buy a plane", "aviation sales"]
+        },
+        "aircraft_services_and_repair": {
+            "_keywords": ["aircraft maintenance", "avionics repair", "hangar service", "airplane mechanic", "aerospace service"]
+        },
+        "aircraft_parts_and_supplies": {
+            "_keywords": ["airplane parts", "aviation supplies", "propeller", "avionics", "jet engine parts"]
+        },
+        "boat_dealer": {
+            "_keywords": ["boat sales", "marine dealership", "yacht broker", "buy a boat", "vessel dealer"]
+        },
+        "boat_service_and_repair": {
+            "_keywords": ["boat repair", "marine mechanic", "hull maintenance", "dockside service", "marine workshop"]
+        },
+        "boat_parts_and_accessories": {
+            "_keywords": ["marine parts", "boat accessories", "outboard motor", "marine electronics", "fishing gear"]
+        },
+        "gas_station": {
+            "_keywords": ["fuel station", "petrol pump", "gasoline", "diesel station", "refueling", "convenience store"]
+        },
+        "electric_vehicle_charging_station": {
+            "_keywords": ["EV charging", "electric charger", "charging point", "charge station", "plug-in vehicle", "Tesla supercharger"]
+        },
+        "truck_stop": {
+            "_keywords": ["truck stop", "rest area", "diesel bay", "long-haul", "trucker services", "weigh station"]
+        },
+        "automobile_leasing": {
+            "_keywords": ["car lease", "auto leasing", "lease agreement", "vehicle rental plan", "monthly lease"]
+        },
+        "automotive_repair": {
+            "_keywords": ["mechanic", "car repair", "engine diagnostics", "auto shop", "repair bay"]
+        },
+        "auto_company": {
+            "_keywords": ["automaker", "car manufacturer", "auto corporation", "vehicle brand", "OEM"]
+        },
+        "motorcycle_manufacturer": {
+            "_keywords": ["motorcycle brand", "bike manufacturer", "motorbike company", "bike production", "two-wheeler brand"]
+        }
+    },
+
     "arts_and_entertainment": ["theater", "music", "concert", "gallery", "film", "comedy", "cinema", "stage", "performance"],
     "attractions_and_activities": ["amusement", "park", "zoo", "arcade", "adventure", "tourist", "landmark", "attraction"],
     "active_life": {
@@ -257,7 +312,61 @@ category_keywords = {
         }
     },
     "real_estate": ["real estate", "broker", "agent", "property", "housing", "apartment", "condo", "listing", "realtor"],
-    "travel": ["airport", "flight", "travel", "tourism", "visa", "passport", "itinerary", "trip", "agency"],
+    "travel": {
+        "_keywords": ["travel", "trip", "tourism", "itinerary", "traveling", "voyage", "journey"],
+    
+        "airport": {
+            "_keywords": ["airport", "terminal", "flight departure", "baggage claim", "air traffic", "boarding gate"]
+        },
+        "travel_services": {
+            "_keywords": ["travel agency", "trip planner", "vacation service", "tour coordinator", "custom itineraries"]
+        },
+        "road_structures_and_services": {
+            "_keywords": ["roadside stop", "highway service", "rest area", "motorway amenities", "road support"]
+        },
+        "tours": {
+            "_keywords": ["guided tour", "sightseeing", "excursion", "tour group", "local guide"]
+        },
+        "transportation": {
+            "_keywords": ["transport hub", "commute", "passenger service", "mobility", "transit options"]
+        },
+        "agriturismo": {
+            "_keywords": ["farm stay", "agritourism", "rural guesthouse", "countryside lodge", "organic farm lodging"]
+        },
+        "airline_ticket_agency": {
+            "_keywords": ["airfare booking", "flight reservation", "ticket counter", "airline agent", "plane tickets"]
+        },
+        "bus_ticket_agency": {
+            "_keywords": ["bus pass", "coach ticket", "bus route booking", "intercity bus ticket", "bus reservation desk"]
+        },
+        "rental_service": {
+            "_keywords": ["car hire", "vehicle rental", "equipment rental", "bike hire", "rental agency"]
+        },
+        "country_house": {
+            "_keywords": ["rural retreat", "country home", "heritage lodging", "country inn", "vintage estate stay"]
+        },
+        "houseboat": {
+            "_keywords": ["floating home", "houseboat rental", "water accommodation", "canal boat", "liveaboard stay"]
+        },
+        "railway_ticket_agent": {
+            "_keywords": ["train ticket", "rail pass", "rail reservation", "station ticket office", "railway booking"]
+        },
+        "rest_stop": {
+            "_keywords": ["highway rest", "travel break area", "service plaza", "rest zone", "roadside stop"]
+        },
+        "ryokan": {
+            "_keywords": ["japanese inn", "tatami room", "onsen stay", "traditional ryokan", "futon bedding"]
+        },
+        "self_catering_accommodation": {
+            "_keywords": ["self-catering", "kitchenette lodging", "vacation apartment", "independent stay", "cook-yourself rental"]
+        },
+        "ski_resort": {
+            "_keywords": ["ski lodge", "snow resort", "mountain skiing", "ski pass", "après-ski"]
+        },
+        "vacation_rental_agents": {
+            "_keywords": ["holiday rental agent", "short-term let service", "vacation home broker", "rental listings", "property host support"]
+        }
+    },
     "mass_media": ["radio", "tv", "television", "media", "news", "magazine", "newspaper", "press", "station"],
     "home_service": ["plumbing", "electrician", "hvac", "appliance", "repair", "contractor", "cleaning", "maintenance"],
     "professional_services": ["consultant", "lawyer", "accountant", "notary", "therapy", "translation", "professional", "service"],
