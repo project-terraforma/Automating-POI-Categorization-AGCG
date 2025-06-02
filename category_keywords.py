@@ -123,7 +123,7 @@ category_keywords = {
     "arts_and_entertainment": ["theater", "music", "concert", "gallery", "film", "comedy", "cinema", "stage", "performance"],
     "attractions_and_activities": ["amusement", "park", "zoo", "arcade", "adventure", "tourist", "landmark", "attraction"],
     "active_life": {
-        "_keywords": ["active", "outdoor", "sports", "fitness", "recreation", "exercise", "adventure", "wellness", "team", "league", "club", "gym", "stadium", "arena", "track", "court", "field", "sports center", "personal training", "fitness class", "yoga", "pilates", "swimming lessons", "martial arts", "fitness coach", "sports training", "instruction", "bootcamp"],
+        "_keywords": ["active", "outdoor", "sports", "fitness", "recreation", "exercise", "adventure", "wellness", "team", "league", "club", "gym", "stadium", "track", "court", "field", "sports center", "personal training", "fitness class", "yoga", "pilates", "swimming lessons", "martial arts", "fitness coach", "sports training", "instruction", "bootcamp"],
     
         "sports_and_recreation_venue": {
             "_keywords": ["sports venue", "gym", "stadium", "arena", "track", "court", "field", "sports center"]
