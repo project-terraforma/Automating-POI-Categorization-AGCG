@@ -101,3 +101,48 @@ def extract_main_text(url, min_len=300):
         # Handle any error that may occur during request or parsing
         return f"[ERROR] {e}"
 
+def extract_meta_and_title(url):
+    """
+    Extracts the page title and meta description from a webpage.
+
+    This function fetches the HTML content of a given URL and parses it to retrieve:
+        - The <title> tag content (usually shown in browser tabs or search results)
+        - The <meta name="description"> tag content (commonly used as a short summary in search engines)
+
+    Parameters:
+        url (str): The URL of the webpage to extract metadata from.
+
+    Returns:
+        dict: A dictionary containing:
+              - 'title': The content of the <title> tag (str)
+              - 'meta_description': The content of the <meta name="description"> tag (str),
+                                     or an error message if something fails.
+    """
+    try:
+        # Send an HTTP GET request to fetch the page content
+        res = requests.get(url, timeout=5)
+        soup = BeautifulSoup(res.text, 'html.parser')
+
+        # Extract and clean <title> tag text, if present
+        title = soup.title.string.strip() if soup.title else ""
+
+        # Attempt to find the <meta name="description"> tag
+        meta_desc = ""
+        meta_tag = soup.find('meta', attrs={'name': 'description'})
+
+        # If the meta tag is found and contains a content attribute, extract and clean it
+        if meta_tag and meta_tag.get('content'):
+            meta_desc = meta_tag['content'].strip()
+
+        return {
+            "title": title,
+            "meta_description": meta_desc
+        }
+
+    except Exception as e:
+        # On failure, return error in the meta_description field for debugging
+        return {
+            "title": "",
+            "meta_description": f"[ERROR] {e}"
+        }
+
