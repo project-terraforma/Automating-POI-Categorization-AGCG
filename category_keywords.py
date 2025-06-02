@@ -139,7 +139,88 @@ category_keywords = {
         }
     },
 
-    "beauty_and_spa": ["spa", "salon", "nails", "massage", "facial", "waxing", "hair", "makeup", "beauty"],
+    "beauty_and_spa": {
+        "_keywords": ["beauty", "spa", "personal care", "grooming", "cosmetic service", "aesthetic service"],
+
+        "aromatherapy": {
+            "_keywords": ["essential oils", "scent therapy", "relaxation oils", "fragrance treatment", "aromatic massage"]
+        },
+        "beauty_salon": {
+            "_keywords": ["beauty parlor", "cosmetic salon", "facial services", "beauty treatment", "salon visit"]
+        },
+        "acne_treatment": {
+            "_keywords": ["acne clinic", "pimple treatment", "blemish control", "dermatological acne care"]
+        },
+        "barber": {
+            "_keywords": ["barbershop", "men's haircut", "shave service", "fade haircut", "straight razor"]
+        },
+        "eyebrow_service": {
+            "_keywords": ["eyebrow shaping", "brow threading", "brow waxing", "brow tinting"]
+        },
+        "eyelash_service": {
+            "_keywords": ["lash extensions", "eyelash lift", "lash tinting", "false lashes"]
+        },
+        "foot_care": {
+            "_keywords": ["pedicure", "foot massage", "callus treatment", "foot spa"]
+        },
+        "hair_extensions": {
+            "_keywords": ["clip-in extensions", "hair weave", "tape-in hair", "hair lengthening"]
+        },
+        "hair_loss_center": {
+            "_keywords": ["hair regrowth", "alopecia treatment", "hair thinning", "scalp therapy"]
+        },
+        "hair_replacement": {
+            "_keywords": ["hair transplant", "wig fitting", "non-surgical hair replacement", "hair systems"]
+        },
+        "health_spa": {
+            "_keywords": ["wellness spa", "detox spa", "holistic treatments", "healing spa", "rejuvenation center"]
+        },
+        "makeup_artist": {
+            "_keywords": ["makeup application", "bridal makeup", "cosmetic stylist", "makeup session"]
+        },
+        "massage": {
+            "_keywords": ["body massage", "deep tissue", "swedish massage", "massage therapist", "relaxation therapy"]
+        },
+        "nail_salon": {
+            "_keywords": ["manicure", "nail art", "gel nails", "acrylic nails", "nail technician"]
+        },
+        "onsen": {
+            "_keywords": ["japanese hot spring", "natural bath", "thermal spa", "onsen soak"]
+        },
+        "permanent_makeup": {
+            "_keywords": ["cosmetic tattoo", "microblading", "permanent eyeliner", "semi-permanent makeup"]
+        },
+        "tattoo_and_piercing": {
+            "_keywords": ["tattoo shop", "body piercing", "ink studio", "nose ring", "tattoo artist"]
+        },
+        "public_bath_houses": {
+            "_keywords": ["communal bath", "public spa", "soaking pools", "urban bathhouse"]
+        },
+        "teeth_whitening": {
+            "_keywords": ["whitening treatment", "dental bleach", "cosmetic teeth care", "tooth brightening"]
+        },
+        "turkish_baths": {
+            "_keywords": ["hammam", "steam bath", "turkish spa", "ritual bath", "scrub room"]
+        },
+        "hair_removal": {
+            "_keywords": ["waxing", "laser hair removal", "sugaring", "depilation", "threading"]
+        },
+        "hair_salon": {
+            "_keywords": ["haircut", "hairstyling", "hair coloring", "salon stylist", "blow dry bar"]
+        },
+        "spas": {
+            "_keywords": ["day spa", "facial treatments", "relaxation services", "pampering center"]
+        },
+        "skin_care": {
+            "_keywords": ["facial care", "moisturizing", "anti-aging", "skin rejuvenation", "dermal treatments"]
+        },
+        "tanning_salon": {
+            "_keywords": ["spray tan", "UV tanning", "tanning booth", "sunless tanning"]
+        },
+        "image_consultant": {
+            "_keywords": ["personal stylist", "appearance coaching", "style advice", "makeover service"]
+        }
+    },
     "education": {
         "_keywords": ["school", "college", "university", "academy", "training", "course", "tutoring", "education", "student", "learning"],
 
@@ -192,7 +273,74 @@ category_keywords = {
             "_keywords": ["math help", "reading help", "tutoring center", "learning center"]
         }
     },
-    "financial_service": ["bank", "insurance", "finance", "atm", "account", "credit", "mortgage", "loan", "investment"],
+    "financial_service": {
+        "_keywords": ["finance", "financial services", "money", "banking", "loans", "investment", "monetary support"],
+
+        "accountant": {
+            "_keywords": ["CPA", "accounting service", "financial statements", "bookkeeping", "tax filing"]
+        },
+        "atms": {
+            "_keywords": ["cash withdrawal", "automated teller", "ATM machine", "balance inquiry", "bank kiosk"]
+        },
+        "bank_credit_union": {
+            "_keywords": ["bank", "credit union", "savings account", "checking account", "banking institution"]
+        },
+        "brokers": {
+            "_keywords": ["stock broker", "securities trader", "investment broker", "licensed broker", "brokerage"]
+        },
+        "business_banking_service": {
+            "_keywords": ["commercial banking", "business account", "corporate banking", "merchant services"]
+        },
+        "business_financing": {
+            "_keywords": ["business loan", "working capital", "small business funding", "commercial financing"]
+        },
+        "check_cashing_payday_loans": {
+            "_keywords": ["check cashing", "payday advance", "quick loan", "cash advance", "short-term loan"]
+        },
+        "coin_dealers": {
+            "_keywords": ["rare coins", "coin appraisal", "numismatic", "coin collector", "coin shop"]
+        },
+        "collection_agencies": {
+            "_keywords": ["debt collection", "collections service", "delinquent accounts", "credit recovery"]
+        },
+        "credit_and_debt_counseling": {
+            "_keywords": ["credit repair", "debt counseling", "financial coaching", "budget planning"]
+        },
+        "currency_exchange": {
+            "_keywords": ["foreign currency", "exchange rates", "money changer", "currency conversion"]
+        },
+        "debt_relief_services": {
+            "_keywords": ["debt settlement", "debt consolidation", "relief plan", "debt resolution"]
+        },
+        "financial_advising": {
+            "_keywords": ["financial advisor", "investment planning", "wealth management", "retirement planning"]
+        },
+        "holding_companies": {
+            "_keywords": ["parent company", "equity holding", "asset holding firm", "corporate ownership"]
+        },
+        "investment_management_company": {
+            "_keywords": ["portfolio manager", "investment firm", "asset management", "mutual funds"]
+        },
+        "installment_loans": {
+            "_keywords": ["monthly installment", "loan repayment plan", "personal loan", "fixed payment loan"]
+        },
+        "insurance_agency": {
+            "_keywords": ["insurance agent", "policy provider", "coverage options", "auto insurance", "life insurance"]
+        },
+        "investing": {
+            "_keywords": ["invest", "stocks", "bonds", "capital growth", "dividends"]
+        },
+        "money_transfer_services": {
+            "_keywords": ["wire transfer", "remittance", "moneygram", "western union", "send money"]
+        },
+        "tax_services": {
+            "_keywords": ["tax preparation", "income tax", "IRS filing", "tax return", "tax consultant"]
+        },
+        "trusts": {
+            "_keywords": ["trust fund", "estate planning", "fiduciary", "asset protection", "trustee services"]
+        }
+    },
+
     "private_establishments_and_corporates": {
         "_keywords": ["corporate", "company", "enterprise", "private firm", "business entity", "office"],
     
@@ -210,7 +358,74 @@ category_keywords = {
         }
     },
 
-    "retail": ["store", "shop", "mall", "retail", "outlet", "boutique", "clothing", "grocery", "supermarket", "shopping"],
+    "retail": {
+        "_keywords": ["retail", "store", "shop", "shopping", "retailer", "merchandise", "goods"],
+
+        "food": {
+            "_keywords": ["grocery store", "food market", "grocer", "supermarket", "edible goods"]
+        },
+        "auto_parts_and_supply_store": {
+            "_keywords": ["auto parts", "car accessories", "brake pads", "oil filter", "vehicle components"]
+        },
+        "beverage_store": {
+            "_keywords": ["drink shop", "beverage outlet", "bottle shop", "liquid refreshment", "drinks retailer"]
+        },
+        "boat_parts_and_supply_store": {
+            "_keywords": ["marine supply", "boat accessories", "nautical parts", "outboard gear", "boat hardware"]
+        },
+        "carpet_store": {
+            "_keywords": ["carpet retailer", "rug shop", "floor covering", "area rug", "floor textiles"]
+        },
+        "distillery": {
+            "_keywords": ["spirits store", "liquor producer", "craft distillery", "whiskey maker", "alcohol distiller"]
+        },
+        "drugstore": {
+            "_keywords": ["drugstore", "medications", "personal care products", "OTC medicine", "health and wellness store"]
+        },
+        "flooring_store": {
+            "_keywords": ["flooring retailer", "wood floors", "vinyl planks", "tile shop", "floor material"]
+        },
+        "health_market": {
+            "_keywords": ["organic market", "health food store", "natural products", "supplement shop", "wellness retail"]
+        },
+        "hearing_aid_provider": {
+            "_keywords": ["hearing devices", "hearing solutions", "audiology retailer", "ear aid shop"]
+        },
+        "herb_and_spice_shop": {
+            "_keywords": ["spice store", "herb market", "dried herbs", "seasoning shop", "culinary spices"]
+        },
+        "honey_farm_shop": {
+            "_keywords": ["honey retailer", "apiary shop", "bee products", "raw honey", "honey farm outlet"]
+        },
+        "meat_shop": {
+            "_keywords": ["butcher shop", "meat market", "fresh cuts", "poultry shop", "artisan meats"]
+        },
+        "olive_oil": {
+            "_keywords": ["olive oil store", "extra virgin olive oil", "oil tasting", "gourmet oil shop"]
+        },
+        "party_supply": {
+            "_keywords": ["party store", "balloons", "decorations", "event supplies", "celebration goods"]
+        },
+        "pharmacy": {
+            "_keywords": ["prescriptions", "pharmaceuticals", "dispensary", "medication store", "drug counter"]
+        },
+        "popcorn_shop": {
+            "_keywords": ["popcorn store", "gourmet popcorn", "flavored popcorn", "snack shop"]
+        },
+        "seafood_market": {
+            "_keywords": ["fish market", "seafood vendor", "fresh catch", "shellfish shop"]
+        },
+        "water_store": {
+            "_keywords": ["water refill", "bottled water store", "purified water", "drinking water shop"]
+        },
+        "shopping": {
+            "_keywords": ["mall", "boutique", "retail therapy", "outlet store", "general shopping"]
+        },
+        "tire_shop": {
+            "_keywords": ["tire retailer", "wheel shop", "tire replacement", "rubber shop", "auto tires"]
+        }
+    },
+
     "health_and_medical": ["clinic", "hospital", "doctor", "dentist", "medical", "healthcare", "nurse", "treatment", "surgery"],
     "pets": {
         "_keywords": ["pet", "animal", "dog", "cat", "grooming", "boarding", "kennel", "petcare", "veterinarian"],
@@ -311,7 +526,73 @@ category_keywords = {
             "_keywords": ["temple", "worship", "altar", "ritual", "spiritual center"]
         }
     },
-    "real_estate": ["real estate", "broker", "agent", "property", "housing", "apartment", "condo", "listing", "realtor"],
+    "real_estate": {
+        "_keywords": ["real estate", "property", "housing", "realty", "land", "estate", "residential", "commercial property"],
+
+        "real_estate_investment": {
+            "_keywords": ["investment property", "real estate portfolio", "income property", "property investment", "real estate asset"]
+        },
+        "builders": {
+            "_keywords": ["home builder", "construction company", "new development", "custom home builder", "residential construction"]
+        },
+        "apartments": {
+            "_keywords": ["apartment complex", "rental unit", "apartment building", "multifamily housing", "apartment living"]
+        },
+        "art_space_rental": {
+            "_keywords": ["artist studio rental", "creative space", "gallery rental", "art workspace", "art venue"]
+        },
+        "commercial_real_estate": {
+            "_keywords": ["office space", "retail property", "commercial lease", "industrial real estate", "commercial unit"]
+        },
+        "condominium": {
+            "_keywords": ["condo", "condominium unit", "strata title", "condo association", "shared property ownership"]
+        },
+        "display_home_center": {
+            "_keywords": ["model home", "display home", "show home", "builder showcase", "home showroom"]
+        },
+        "estate_liquidation": {
+            "_keywords": ["estate sale", "property liquidation", "real estate auction", "asset liquidation"]
+        },
+        "holiday_park": {
+            "_keywords": ["holiday park", "recreational park", "vacation village", "holiday resort park", "caravan park"]
+        },
+        "home_staging": {
+            "_keywords": ["home staging", "interior styling", "property presentation", "real estate styling", "staging service"]
+        },
+        "homeowner_association": {
+            "_keywords": ["HOA", "homeowners' group", "community association", "residential governance", "property rules"]
+        },
+        "housing_cooperative": {
+            "_keywords": ["housing co-op", "shared ownership", "residential cooperative", "co-op housing"]
+        },
+        "kitchen_incubator": {
+            "_keywords": ["kitchen rental", "shared kitchen", "culinary incubator", "commercial kitchen space"]
+        },
+        "mobile_home_dealer": {
+            "_keywords": ["mobile home sales", "manufactured home dealer", "trailer sales", "prefab home sales"]
+        },
+        "mobile_home_park": {
+            "_keywords": ["mobile home park", "trailer park", "manufactured housing community", "modular home park"]
+        },
+        "mortgage_broker": {
+            "_keywords": ["mortgage loan", "home financing", "mortgage advisor", "loan officer", "home loan broker"]
+        },
+        "property_management": {
+            "_keywords": ["property manager", "rental management", "tenant services", "building maintenance", "real estate operations"]
+        },
+        "shared_office_space": {
+            "_keywords": ["coworking space", "shared office", "flexible workspace", "startup office rental", "hot desk"]
+        },
+        "university_housing": {
+            "_keywords": ["student dorm", "campus housing", "student residence", "university accommodation", "college living"]
+        },
+        "real_estate_agent": {
+            "_keywords": ["realtor", "property agent", "listing agent", "broker", "home sales"]
+        },
+        "real_estate_service": {
+            "_keywords": ["real estate company", "property service", "realty firm", "brokerage", "estate consultant"]
+        }
+    },
     "travel": {
         "_keywords": ["travel", "trip", "tourism", "itinerary", "traveling", "voyage", "journey"],
     
@@ -367,7 +648,29 @@ category_keywords = {
             "_keywords": ["holiday rental agent", "short-term let service", "vacation home broker", "rental listings", "property host support"]
         }
     },
-    "mass_media": ["radio", "tv", "television", "media", "news", "magazine", "newspaper", "press", "station"],
+    "mass_media": {
+        "_keywords": ["media", "broadcast", "press", "news", "journalism", "communication", "mass communication"],
+
+        "print_media": {
+            "_keywords": ["newspaper", "magazine", "print publication", "editorial", "printed news", "periodical"]
+        },
+        "media_critic": {
+            "_keywords": ["media reviews", "media analysis", "critic column", "news commentary", "journalistic critique"]
+        },
+        "media_news_company": {
+            "_keywords": ["news outlet", "media house", "news agency", "broadcast network", "press organization"]
+        },
+        "media_news_website": {
+            "_keywords": ["online news", "news site", "digital publication", "news portal", "internet media"]
+        },
+        "media_restoration_service": {
+            "_keywords": ["video restoration", "film repair", "media digitization", "audio remastering", "media preservation"]
+        },
+        "theatrical_productions": {
+            "_keywords": ["stage production", "theater performance", "live drama", "playbill", "theatrical show"]
+        }
+    },
+
     "home_service": ["plumbing", "electrician", "hvac", "appliance", "repair", "contractor", "cleaning", "maintenance"],
     "professional_services": ["consultant", "lawyer", "accountant", "notary", "therapy", "translation", "professional", "service"],
     "structure_and_geography": {
