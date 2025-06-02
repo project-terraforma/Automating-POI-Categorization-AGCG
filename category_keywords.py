@@ -486,7 +486,125 @@ category_keywords = {
             "_keywords": ["industrial energy", "mining supply", "extraction equipment", "energy contractor", "fuel distributor"]
         }
     },
-    "public_service_and_government": ["city", "county", "government", "dmv", "courthouse", "police", "fire", "public", "service"],
+    "public_service_and_government": {
+        "_keywords": ["public service", "government", "civic", "municipal", "state office", "federal service", "community support"],
+
+        "public_utility_company": {
+            "_keywords": ["electric company", "water utility", "power supplier", "gas service", "utility provider"]
+        },
+        "law_enforcement": {
+            "_keywords": ["law enforcement", "policing", "public safety", "crime prevention", "police services"]
+        },
+        "organization": {
+            "_keywords": ["non-profit organization", "civil society", "registered entity", "public initiative"]
+        },
+        "community_services": {
+            "_keywords": ["neighborhood support", "community help", "public outreach", "civic engagement"]
+        },
+        "government_services": {
+            "_keywords": ["government agency", "public office", "government support", "gov service center"]
+        },
+        "jail_and_prison": {
+            "_keywords": ["correctional facility", "detention center", "prison", "jail", "inmate services"]
+        },
+        "post_office": {
+            "_keywords": ["mail center", "postal service", "parcel drop", "stamp counter", "post outlet"]
+        },
+        "public_toilet": {
+            "_keywords": ["public restroom", "toilet facility", "public washroom", "hygiene station"]
+        },
+        "armed_forces_branch": {
+            "_keywords": ["military office", "army base", "naval command", "air force station", "defense branch"]
+        },
+        "central_government_office": {
+            "_keywords": ["central authority", "federal HQ", "national office", "head government building"]
+        },
+        "chambers_of_commerce": {
+            "_keywords": ["business chamber", "commerce association", "economic bureau", "trade organization"]
+        },
+        "children_hall": {
+            "_keywords": ["youth center", "children's hall", "kids activity hall", "child engagement facility"]
+        },
+        "civic_center": {
+            "_keywords": ["civic hub", "city gathering space", "municipal center", "community forum"]
+        },
+        "community_center": {
+            "_keywords": ["neighborhood center", "local community hall", "public gathering space", "community hub"]
+        },
+        "courthouse": {
+            "_keywords": ["judicial building", "courtroom", "legal center", "trial venue", "court services"]
+        },
+        "department_of_motor_vehicles": {
+            "_keywords": ["DMV", "driver licensing", "vehicle registration", "motor services"]
+        },
+        "department_of_social_service": {
+            "_keywords": ["social services", "welfare support", "public assistance", "family help office"]
+        },
+        "embassy": {
+            "_keywords": ["diplomatic mission", "foreign consulate", "visa office", "ambassador residence"]
+        },
+        "family_service_center": {
+            "_keywords": ["family support", "childcare assistance", "household services", "family welfare"]
+        },
+        "federal_government_offices": {
+            "_keywords": ["federal agency", "national administration", "government building", "federal HQ"]
+        },
+        "fire_department": {
+            "_keywords": ["fire station", "fire rescue", "firefighters", "emergency fire services"]
+        },
+        "immigration_and_naturalization": {
+            "_keywords": ["immigration office", "naturalization service", "visa processing", "citizenship services"]
+        },
+        "library": {
+            "_keywords": ["public library", "book borrowing", "library services", "reading room", "reference center"]
+        },
+        "local_and_state_government_offices": {
+            "_keywords": ["city office", "municipal hall", "state building", "county services"]
+        },
+        "low_income_housing": {
+            "_keywords": ["affordable housing", "public housing", "housing assistance", "subsidized housing"]
+        },
+        "national_security_services": {
+            "_keywords": ["national defense", "security agency", "intelligence office", "security bureau"]
+        },
+        "office_of_vital_records": {
+            "_keywords": ["birth certificate", "death records", "public records", "vital stats office"]
+        },
+        "pension": {
+            "_keywords": ["retirement benefits", "pension office", "senior income", "public pension"]
+        },
+        "police_department": {
+            "_keywords": ["police station", "law enforcement office", "crime response", "officer services"]
+        },
+        "political_party_office": {
+            "_keywords": ["party headquarters", "political office", "campaign center", "election support"]
+        },
+        "railway_service": {
+            "_keywords": ["train service", "rail transport", "public railway", "transit rail office"]
+        },
+        "registry_office": {
+            "_keywords": ["civil registry", "marriage registration", "birth record office", "legal documentation"]
+        },
+        "retirement_home": {
+            "_keywords": ["senior housing", "elderly care home", "assisted living", "retirement residence"]
+        },
+        "scout_hall": {
+            "_keywords": ["scouting center", "scout group hall", "youth scouts", "scout organization"]
+        },
+        "tax_office": {
+            "_keywords": ["tax authority", "IRS office", "taxpayer services", "revenue office"]
+        },
+        "town_hall": {
+            "_keywords": ["municipal hall", "city council building", "local government center", "town administration"]
+        },
+        "unemployment_office": {
+            "_keywords": ["job support center", "unemployment benefits", "employment agency", "job seeker services"]
+        },
+        "weather_station": {
+            "_keywords": ["climate monitoring", "forecasting center", "meteorology office", "weather bureau"]
+        }
+    },
+
     "religious_organization": {
         "_keywords": [
             "religious", "worship", "faith", "spiritual", "prayer", "sacred", "holy site", "place of worship"
@@ -670,7 +788,6 @@ category_keywords = {
             "_keywords": ["stage production", "theater performance", "live drama", "playbill", "theatrical show"]
         }
     },
-
     "home_service": ["plumbing", "electrician", "hvac", "appliance", "repair", "contractor", "cleaning", "maintenance"],
     "professional_services": ["consultant", "lawyer", "accountant", "notary", "therapy", "translation", "professional", "service"],
     "structure_and_geography": {
