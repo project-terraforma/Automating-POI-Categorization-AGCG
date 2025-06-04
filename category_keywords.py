@@ -12,7 +12,7 @@ category_keywords = {
         }
     },
     "accommodation": {
-        "_keywords": ["accommodation", "lodging", "overnight stay", "stay", "room", "booking"],
+        "_keywords": ["accommodation", "lodging", "overnight stay", "stay", "room", "booking", "housing"],
     
         "bed_and_breakfast": {
             "_keywords": ["bed and breakfast", "b&b", "morning meal", "cozy stay", "small inn"]
@@ -123,22 +123,28 @@ category_keywords = {
     "arts_and_entertainment": ["theater", "music", "concert", "gallery", "film", "comedy", "cinema", "stage", "performance"],
     "attractions_and_activities": ["amusement", "park", "zoo", "arcade", "adventure", "tourist", "landmark", "attraction"],
     "active_life": {
-        "_keywords": ["active", "outdoor", "sports", "fitness", "recreation", "exercise", "adventure", "wellness", "team", "league", "club", "gym", "stadium", "track", "court", "field", "sports center", "personal training", "fitness class", "yoga", "pilates", "swimming lessons", "martial arts", "fitness coach", "sports training", "instruction", "bootcamp"],
-    
+        "_keywords": [
+            "active", "outdoor", "sports", "fitness", "recreation", "exercise", "adventure", "wellness",
+            "basketball", "soccer", "tennis", "baseball", "volleyball", "football", "rugby", "hockey",
+            "cricket", "golf", "cycling", "running", "jogging", "climbing", "skiing", "snowboarding",
+            "surfing", "kayaking", "canoeing", "rowing", "skating", "rollerblading", "archery", "fencing",
+            "boxing", "wrestling", "karate", "taekwondo", "judo", "bouldering", "track and field",
+            "triathlon", "parkour", "crossfit", "cheerleading", "dance fitness", "zumba", "obstacle course"
+        ],
+
         "sports_and_recreation_venue": {
-            "_keywords": ["sports venue", "gym", "stadium", "arena", "track", "court", "field", "sports center"]
+            "_keywords": ["arena", "indoor court", "stadium complex", "athletic field", "sports dome"]
         },
         "sports_and_fitness_instruction": {
-            "_keywords": ["personal training", "fitness class", "yoga", "pilates", "swimming lessons", "martial arts", "fitness coach", "sports training", "instruction", "bootcamp"]
+            "_keywords": ["group fitness", "training coach", "conditioning program", "wellness instructor"]
         },
         "sports_club_and_league": {
-            "_keywords": ["sports club", "league", "basketball team", "soccer club", "tennis club", "youth league", "athletic organization", "recreational league"]
+            "_keywords": ["athletic club", "team league", "competitive club", "amateur league", "sports organization"]
         },
         "sports_and_recreation_rental_and_services": {
-            "_keywords": ["equipment rental", "bike rental", "kayak rental", "ski rental", "gear rental", "outdoor services", "fitness services"]
+            "_keywords": ["outdoor equipment rental", "sports gear hire", "adventure service", "gear maintenance"]
         }
     },
-
     "beauty_and_spa": {
         "_keywords": ["beauty", "spa", "personal care", "grooming", "cosmetic service", "aesthetic service"],
 
