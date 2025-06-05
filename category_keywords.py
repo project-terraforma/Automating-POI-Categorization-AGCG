@@ -63,7 +63,6 @@ category_keywords = {
             "_keywords": ["serviced apartment", "long stay", "kitchenette", "extended stay", "corporate rental"]
         }
     },
-
     "automotive": {
         "_keywords": ["automotive", "vehicle", "motorized", "transportation", "auto-related", "motor service"],
     
@@ -119,9 +118,374 @@ category_keywords = {
             "_keywords": ["motorcycle brand", "bike manufacturer", "motorbike company", "bike production", "two-wheeler brand"]
         }
     },
+    "arts_and_entertainment": {
+        "_keywords": ["entertainment", "arts", "leisure", "recreation", "performance", "show", "venue", "attraction"],
 
-    "arts_and_entertainment": ["theater", "music", "concert", "gallery", "film", "comedy", "cinema", "stage", "performance"],
-    "attractions_and_activities": ["amusement", "park", "zoo", "arcade", "adventure", "tourist", "landmark", "attraction"],
+        "adult_entertainment": {
+            "_keywords": ["strip club", "adult show", "exotic dance"]
+        },
+        "arcade": {
+            "_keywords": ["arcade", "gaming center", "game tokens"]
+        },
+        "auditorium": {
+            "_keywords": ["auditorium", "public hall", "seated venue"]
+        },
+        "bar_crawl": {
+            "_keywords": ["bar crawl", "pub tour"]
+        },
+        "betting_center": {
+            "_keywords": ["betting", "sportsbook", "wagering"]
+        },
+        "bingo_hall": {
+            "_keywords": ["bingo", "number games"]
+        },
+        "bookmakers": {
+            "_keywords": ["bookmaker", "odds", "betting office"]
+        },
+        "cabaret": {
+            "_keywords": ["cabaret", "burlesque", "variety show"]
+        },
+        "carousel": {
+            "_keywords": ["carousel", "merry-go-round"]
+        },
+        "casino": {
+            "_keywords": ["casino", "slot machine", "poker"]
+        },
+        "chamber_of_handicraft": {
+            "_keywords": ["handicraft", "artisan guild"]
+        },
+        "choir": {
+            "_keywords": ["choir", "choral", "vocal group"]
+        },
+        "circus": {
+            "_keywords": ["circus", "acrobats", "clowns"]
+        },
+        "club_crawl": {
+            "_keywords": ["club crawl", "nightlife tour"]
+        },
+        "comedy_club": {
+            "_keywords": ["comedy", "stand-up", "open mic"]
+        },
+        "topic_concert_venue": {
+            "_keywords": ["concert venue", "music hall"]
+        },
+        "country_club": {
+            "_keywords": ["country club", "private club", "recreational facility"]
+        },
+        "country_dance_hall": {
+            "_keywords": ["country dance", "line dancing"]
+        },
+        "dance_club": {
+            "_keywords": ["nightclub", "dance floor", "DJ"]
+        },
+        "dinner_theater": {
+            "_keywords": ["dinner theater", "meal and show"]
+        },
+        "eatertainment": {
+            "_keywords": ["eatertainment", "dining experience", "entertainment dining"]
+        },
+        "escape_rooms": {
+            "_keywords": ["escape room", "puzzle game", "team challenge"]
+        },
+        "exhibition_and_trade_center": {
+            "_keywords": ["exhibition center", "trade show", "expo"]
+        },
+        "glass_blowing": {
+            "_keywords": ["glass blowing", "glass art", "artisan demonstration"]
+        },
+        "indoor_playcenter": {
+            "_keywords": ["indoor play", "kids play center", "family entertainment center"]
+        },
+        "internet_cafe": {
+            "_keywords": ["internet café", "cybercafé"]
+        },
+        "jazz_and_blues": {
+            "_keywords": ["jazz", "blues", "live music"]
+        },
+        "karaoke": {
+            "_keywords": ["karaoke", "singing booth"]
+        },
+        "laser_tag": {
+            "_keywords": ["laser tag", "laser arena"]
+        },
+        "makerspace": {
+            "_keywords": ["makerspace", "DIY workshop", "creative space"]
+        },
+        "marching_band": {
+            "_keywords": ["marching band", "parade music"]
+        },
+        "music_venue": {
+            "_keywords": ["music venue", "live concert", "gig venue"]
+        },
+        "musical_band_orchestras_and_symphonies": {
+            "_keywords": ["orchestra", "symphony", "music ensemble"]
+        },
+        "opera_and_ballet": {
+            "_keywords": ["opera", "ballet", "classical performance"]
+        },
+        "paint_and_sip": {
+            "_keywords": ["paint and sip", "wine and art"]
+        },
+        "paintball": {
+            "_keywords": ["paintball", "paintball arena"]
+        },
+        "performing_arts": {
+            "_keywords": ["performing arts", "stage performance"]
+        },
+        "planetarium": {
+            "_keywords": ["planetarium", "astronomy show"]
+        },
+        "rodeo": {
+            "_keywords": ["rodeo", "bull riding", "western event"]
+        },
+        "salsa_club": {
+            "_keywords": ["salsa club", "latin dance"]
+        },
+        "wildlife_sanctuary": {
+            "_keywords": ["wildlife sanctuary", "animal preserve"]
+        },
+        "stadium_arena": {
+            "_keywords": ["stadium", "arena", "sports venue"]
+        },
+        "studio_taping": {
+            "_keywords": ["studio taping", "live recording"]
+        },
+        "theaters_and_performance_venues": {
+            "_keywords": ["theater", "stage", "drama venue"]
+        },
+        "ticket_sales": {
+            "_keywords": ["ticket booth", "ticket office", "event tickets"]
+        },
+        "virtual_reality_center": {
+            "_keywords": ["VR", "virtual reality", "immersive game"]
+        },
+        "water_park": {
+            "_keywords": ["water park", "waterslide", "aqua park"]
+        },
+        "cinema": {
+            "_keywords": ["cinema", "movie theater", "film screening"]
+        },
+        "farm": {
+            "_keywords": ["farm", "agritourism", "farm tours"]
+        },
+        "festival": {
+            "_keywords": ["festival", "public celebration", "outdoor event"]
+        },
+        "social_club": {
+            "_keywords": ["social club", "member club", "community gathering"]
+        },
+        "supernatural_reading": {
+            "_keywords": ["psychic", "tarot", "supernatural reading"]
+        }
+    },
+    "attractions_and_activities": {
+        "_keywords": ["attractions", "activities", "outdoors", "tours", "recreation", "points of interest", "exploration", "things to do"],
+
+        "amusement_park": {
+            "_keywords": ["amusement park", "theme park", "roller coaster"]
+        },
+        "aquarium": {
+            "_keywords": ["aquarium", "marine exhibit", "sea life"]
+        },
+        "architecture": {
+            "_keywords": ["architecture", "historic building", "architectural site"]
+        },
+        "art_gallery": {
+            "_keywords": ["art gallery", "art exhibit", "visual art"]
+        },
+        "atv_rentals_and_tours": {
+            "_keywords": ["ATV rental", "quad tour", "off-road vehicle"]
+        },
+        "axe_throwing": {
+            "_keywords": ["axe throwing", "target throwing"]
+        },
+        "backpacking_area": {
+            "_keywords": ["backpacking", "hiking area", "multi-day trail"]
+        },
+        "beach": {
+            "_keywords": ["beach", "sandy shore", "coastline"]
+        },
+        "beach_combing_area": {
+            "_keywords": ["beachcombing", "shell hunting", "shore walk"]
+        },
+        "boat_rental_and_training": {
+            "_keywords": ["boat rental", "boating lesson", "marine training"]
+        },
+        "boating_places": {
+            "_keywords": ["boating", "lake boating", "paddle boating"]
+        },
+        "bobsledding_field": {
+            "_keywords": ["bobsledding", "winter track"]
+        },
+        "botanical_garden": {
+            "_keywords": ["botanical garden", "plant collection", "horticulture"]
+        },
+        "bungee_jumping_center": {
+            "_keywords": ["bungee jumping", "jump site", "extreme jump"]
+        },
+        "canyon": {
+            "_keywords": ["canyon", "gorge", "valley"]
+        },
+        "castle": {
+            "_keywords": ["castle", "historic fortress"]
+        },
+        "cave": {
+            "_keywords": ["cave", "cavern", "underground passage"]
+        },
+        "challenge_courses_center": {
+            "_keywords": ["challenge course", "ropes course", "team activity"]
+        },
+        "cliff_jumping_center": {
+            "_keywords": ["cliff jumping", "jump site"]
+        },
+        "climbing_service": {
+            "_keywords": ["climbing guide", "guided climb", "climbing tours"]
+        },
+        "crater": {
+            "_keywords": ["crater", "volcanic site", "impact site"]
+        },
+        "cultural_center": {
+            "_keywords": ["cultural center", "heritage space", "community arts"]
+        },
+        "fishing_charter": {
+            "_keywords": ["fishing charter", "boat fishing", "deep sea fishing"]
+        },
+        "flyboarding_rental": {
+            "_keywords": ["flyboard", "water jetpack", "hydroflight"]
+        },
+        "fort": {
+            "_keywords": ["fort", "military structure"]
+        },
+        "fountain": {
+            "_keywords": ["fountain", "water feature"]
+        },
+        "go_kart_track": {
+            "_keywords": ["go-kart", "kart racing", "racing track"]
+        },
+        "haunted_house": {
+            "_keywords": ["haunted house", "ghost attraction"]
+        },
+        "high_gliding_center": {
+            "_keywords": ["gliding", "hang gliding", "paragliding"]
+        },
+        "horseback_riding_service": {
+            "_keywords": ["horseback riding", "equestrian tour", "trail ride"]
+        },
+        "hot_air_balloons_tour": {
+            "_keywords": ["hot air balloon", "balloon flight"]
+        },
+        "hot_springs": {
+            "_keywords": ["hot springs", "thermal bath"]
+        },
+        "jet_skis_rental": {
+            "_keywords": ["jet ski", "personal watercraft", "pwc rental"]
+        },
+        "kiteboarding_instruction": {
+            "_keywords": ["kiteboarding", "kitesurfing lessons"]
+        },
+        "lake": {
+            "_keywords": ["lake", "inland water body"]
+        },
+        "landmark_and_historical_building": {
+            "_keywords": ["landmark", "historic site", "iconic building"]
+        },
+        "lighthouse": {
+            "_keywords": ["lighthouse", "beacon tower"]
+        },
+        "lookout": {
+            "_keywords": ["lookout", "viewpoint", "scenic overlook"]
+        },
+        "marina": {
+            "_keywords": ["marina", "boat dock", "harbor"]
+        },
+        "monument": {
+            "_keywords": ["monument", "memorial", "statue"]
+        },
+        "mountain_bike_parks": {
+            "_keywords": ["mountain biking", "bike trail", "MTB park"]
+        },
+        "observatory": {
+            "_keywords": ["observatory", "stargazing dome", "telescopes"]
+        },
+        "paddleboard_rental": {
+            "_keywords": ["paddleboard", "SUP rental"]
+        },
+        "palace": {
+            "_keywords": ["palace", "royal residence"]
+        },
+        "parasailing_ride_service": {
+            "_keywords": ["parasailing", "parachute boat ride"]
+        },
+        "plaza": {
+            "_keywords": ["plaza", "town square", "public square"]
+        },
+        "rafting_kayaking_area": {
+            "_keywords": ["rafting", "kayaking", "whitewater"]
+        },
+        "rock_climbing_spot": {
+            "_keywords": ["rock climbing", "climbing wall", "natural climb"]
+        },
+        "ruin": {
+            "_keywords": ["ruins", "ancient site", "archaeological"]
+        },
+        "sailing_area": {
+            "_keywords": ["sailing", "sailboat", "wind navigation"]
+        },
+        "sand_dune": {
+            "_keywords": ["sand dune", "desert hill"]
+        },
+        "scavenger_hunts_provider": {
+            "_keywords": ["scavenger hunt", "urban quest", "team puzzle"]
+        },
+        "sculpture_statue": {
+            "_keywords": ["sculpture", "public art", "statue"]
+        },
+        "ski_area": {
+            "_keywords": ["ski area", "ski resort", "snow skiing"]
+        },
+        "skyline": {
+            "_keywords": ["skyline", "city view", "urban panorama"]
+        },
+        "sledding_rental": {
+            "_keywords": ["sled rental", "toboggan", "snow ride"]
+        },
+        "snorkeling_equipment_rental": {
+            "_keywords": ["snorkeling rental", "mask and fins"]
+        },
+        "snorkeling": {
+            "_keywords": ["snorkeling", "reef tour", "shallow dive"]
+        },
+        "snowboarding_center": {
+            "_keywords": ["snowboarding", "snow park"]
+        },
+        "stargazing_area": {
+            "_keywords": ["stargazing", "night sky view"]
+        },
+        "street_art": {
+            "_keywords": ["street art", "murals", "graffiti walls"]
+        },
+        "trail": {
+            "_keywords": ["trail", "hiking path", "nature walk"]
+        },
+        "waterfall": {
+            "_keywords": ["waterfall", "cascade", "falls"]
+        },
+        "surfing": {
+            "_keywords": ["surfing", "surf school", "wave riding"]
+        },
+        "ziplining_center": {
+            "_keywords": ["zipline", "aerial rope", "canopy tour"]
+        },
+        "zoo": {
+            "_keywords": ["zoo", "animal park", "wildlife exhibit"]
+        },
+        "museum": {
+            "_keywords": ["museum", "exhibit", "artifact display"]
+        },
+        "park": {
+            "_keywords": ["park", "green space", "urban garden"]
+        }
+    },
     "active_life": {
         "_keywords": [
             "active", "outdoor", "sports", "fitness", "recreation", "exercise", "adventure", "wellness",
@@ -363,7 +727,6 @@ category_keywords = {
             "_keywords": ["private equity", "investment firm", "venture capital", "buyout", "portfolio company", "PE firm", "financial sponsor"]
         }
     },
-
     "retail": {
         "_keywords": ["retail", "store", "shop", "shopping", "retailer", "merchandise", "goods"],
 
@@ -432,7 +795,277 @@ category_keywords = {
         }
     },
 
-    "health_and_medical": ["clinic", "hospital", "doctor", "dentist", "medical", "healthcare", "nurse", "treatment", "surgery"],
+    "health_and_medical": {
+        "_keywords": ["health", "medical", "clinic", "doctor", "treatment", "care", "therapy", "wellness"],
+
+        "abuse_and_addiction_treatment": {
+            "_keywords": ["addiction treatment", "substance abuse center", "rehab"]
+        },
+        "counseling_and_mental_health": {
+            "_keywords": ["mental health", "counseling", "therapy", "psychological support"]
+        },
+        "dental_hygienist": {
+            "_keywords": ["dental hygiene", "teeth cleaning"]
+        },
+        "dentist": {
+            "_keywords": ["dentist", "dental clinic", "oral care"]
+        },
+        "diagnostic_services": {
+            "_keywords": ["diagnostics", "lab testing", "imaging"]
+        },
+        "doctor": {
+            "_keywords": ["physician", "medical practice", "doctor’s office"]
+        },
+        "abortion_clinic": {
+            "_keywords": ["abortion clinic", "reproductive services"]
+        },
+        "acupuncture": {
+            "_keywords": ["acupuncture", "needle therapy"]
+        },
+        "aesthetician": {
+            "_keywords": ["aesthetician", "skincare specialist"]
+        },
+        "alcohol_and_drug_treatment_center": {
+            "_keywords": ["drug rehab", "alcohol treatment", "addiction center"]
+        },
+        "alternative_medicine": {
+            "_keywords": ["holistic medicine", "natural healing"]
+        },
+        "ambulance_and_ems_services": {
+            "_keywords": ["ambulance", "EMS", "emergency transport"]
+        },
+        "animal_assisted_therapy": {
+            "_keywords": ["animal therapy", "pet-assisted therapy"]
+        },
+        "assisted_living_facility": {
+            "_keywords": ["assisted living", "senior residence"]
+        },
+        "ayurveda": {
+            "_keywords": ["ayurveda", "ayurvedic treatment"]
+        },
+        "behavior_analyst": {
+            "_keywords": ["behavior analysis", "ABA therapy"]
+        },
+        "blood_and_plasma_donation_center": {
+            "_keywords": ["blood donation", "plasma center"]
+        },
+        "body_contouring": {
+            "_keywords": ["body sculpting", "fat reduction"]
+        },
+        "cancer_treatment_center": {
+            "_keywords": ["cancer center", "oncology"]
+        },
+        "cannabis_clinic": {
+            "_keywords": ["cannabis clinic", "medical marijuana"]
+        },
+        "cannabis_collective": {
+            "_keywords": ["cannabis collective", "dispensary"]
+        },
+        "childrens_hospital": {
+            "_keywords": ["children’s hospital", "pediatric center"]
+        },
+        "chiropractor": {
+            "_keywords": ["chiropractor", "spinal alignment"]
+        },
+        "colonics": {
+            "_keywords": ["colon cleanse", "colonic therapy"]
+        },
+        "community_health_center": {
+            "_keywords": ["community clinic", "health center"]
+        },
+        "concierge_medicine": {
+            "_keywords": ["concierge medicine", "private doctor"]
+        },
+        "cryotherapy": {
+            "_keywords": ["cryotherapy", "cold therapy"]
+        },
+        "dialysis_clinic": {
+            "_keywords": ["dialysis", "kidney treatment"]
+        },
+        "dietitian": {
+            "_keywords": ["dietitian", "nutrition counseling"]
+        },
+        "doula": {
+            "_keywords": ["doula", "birth support"]
+        },
+        "emergency_room": {
+            "_keywords": ["ER", "emergency room", "hospital emergency"]
+        },
+        "environmental_medicine": {
+            "_keywords": ["environmental medicine", "toxin exposure"]
+        },
+        "eye_care_clinic": {
+            "_keywords": ["eye clinic", "optometry", "vision care"]
+        },
+        "float_spa": {
+            "_keywords": ["float spa", "sensory deprivation"]
+        },
+        "halfway_house": {
+            "_keywords": ["halfway house", "transitional living"]
+        },
+        "halotherapy": {
+            "_keywords": ["salt therapy", "halotherapy"]
+        },
+        "health_and_wellness_club": {
+            "_keywords": ["wellness club", "health programs"]
+        },
+        "health_coach": {
+            "_keywords": ["health coaching", "lifestyle coach"]
+        },
+        "health_department": {
+            "_keywords": ["health department", "public health office"]
+        },
+        "health_insurance_office": {
+            "_keywords": ["health insurance", "medical coverage"]
+        },
+        "hospice": {
+            "_keywords": ["hospice care", "end-of-life care"]
+        },
+        "hospital": {
+            "_keywords": ["hospital", "general medical center"]
+        },
+        "hydrotherapy": {
+            "_keywords": ["hydrotherapy", "water treatment"]
+        },
+        "hypnosis_hypnotherapy": {
+            "_keywords": ["hypnotherapy", "hypnosis"]
+        },
+        "iv_hydration": {
+            "_keywords": ["IV therapy", "hydration drip"]
+        },
+        "lactation_services": {
+            "_keywords": ["breastfeeding support", "lactation consultant"]
+        },
+        "laser_eye_surgery_lasik": {
+            "_keywords": ["LASIK", "laser eye surgery"]
+        },
+        "lice_treatment": {
+            "_keywords": ["lice removal", "lice clinic"]
+        },
+        "massage_therapy": {
+            "_keywords": ["massage therapy", "bodywork"]
+        },
+        "maternity_centers": {
+            "_keywords": ["maternity center", "birth facility"]
+        },
+        "medical_cannabis_referral": {
+            "_keywords": ["cannabis referral", "marijuana recommendation"]
+        },
+        "medical_service_organizations": {
+            "_keywords": ["MSO", "medical admin service"]
+        },
+        "medical_transportation": {
+            "_keywords": ["medical transport", "non-emergency transport"]
+        },
+        "memory_care": {
+            "_keywords": ["memory care", "dementia support"]
+        },
+        "midwife": {
+            "_keywords": ["midwife", "home birth"]
+        },
+        "nurse_practitioner": {
+            "_keywords": ["NP", "nurse practitioner"]
+        },
+        "nutritionist": {
+            "_keywords": ["nutritionist", "meal planning"]
+        },
+        "occupational_medicine": {
+            "_keywords": ["occupational health", "workplace injury"]
+        },
+        "occupational_therapy": {
+            "_keywords": ["occupational therapy", "rehabilitation"]
+        },
+        "optometrist": {
+            "_keywords": ["optometrist", "eye exam"]
+        },
+        "organ_and_tissue_donor_service": {
+            "_keywords": ["organ donation", "tissue donor"]
+        },
+        "orthotics": {
+            "_keywords": ["orthotics", "custom insoles"]
+        },
+        "oxygen_bar": {
+            "_keywords": ["oxygen bar", "oxygen therapy"]
+        },
+        "paternity_tests_and_services": {
+            "_keywords": ["paternity testing", "DNA test"]
+        },
+        "physical_therapy": {
+            "_keywords": ["physical therapy", "rehab exercises"]
+        },
+        "placenta_encapsulation_service": {
+            "_keywords": ["placenta capsules", "postnatal support"]
+        },
+        "podiatry": {
+            "_keywords": ["podiatrist", "foot doctor"]
+        },
+        "prenatal_perinatal_care": {
+            "_keywords": ["prenatal care", "perinatal services"]
+        },
+        "prosthetics": {
+            "_keywords": ["prosthetics", "artificial limbs"]
+        },
+        "prosthodontist": {
+            "_keywords": ["prosthodontist", "dental prosthetics"]
+        },
+        "psychomotor_therapist": {
+            "_keywords": ["psychomotor therapy", "movement therapy"]
+        },
+        "public_health_clinic": {
+            "_keywords": ["public health", "community clinic"]
+        },
+        "reflexology": {
+            "_keywords": ["reflexology", "foot pressure therapy"]
+        },
+        "reiki": {
+            "_keywords": ["reiki", "energy healing"]
+        },
+        "sauna": {
+            "_keywords": ["sauna", "steam room"]
+        },
+        "skilled_nursing": {
+            "_keywords": ["skilled nursing", "nursing care"]
+        },
+        "sleep_specialist": {
+            "_keywords": ["sleep clinic", "sleep disorders"]
+        },
+        "speech_therapist": {
+            "_keywords": ["speech therapy", "language development"]
+        },
+        "sperm_clinic": {
+            "_keywords": ["sperm bank", "fertility clinic"]
+        },
+        "surgical_center": {
+            "_keywords": ["surgery center", "outpatient surgery"]
+        },
+        "ultrasound_imaging_center": {
+            "_keywords": ["ultrasound", "imaging center"]
+        },
+        "urgent_care_clinic": {
+            "_keywords": ["urgent care", "walk-in clinic"]
+        },
+        "weight_loss_center": {
+            "_keywords": ["weight loss", "slimming clinic"]
+        },
+        "wellness_program": {
+            "_keywords": ["wellness program", "lifestyle plan"]
+        },
+        "womens_health_clinic": {
+            "_keywords": ["women's health", "gynecology"]
+        },
+        "medical_center": {
+            "_keywords": ["medical center", "healthcare facility"]
+        },
+        "personal_care_service": {
+            "_keywords": ["personal care", "daily living support"]
+        },
+        "rehabilitation_center": {
+            "_keywords": ["rehab center", "recovery facility"]
+        },
+        "traditional_chinese_medicine": {
+            "_keywords": ["TCM", "herbal medicine", "meridian therapy"]
+        }
+    },
     "pets": {
         "_keywords": ["pet", "animal", "dog", "cat", "grooming", "boarding", "kennel", "petcare", "veterinarian"],
 
@@ -794,8 +1427,333 @@ category_keywords = {
             "_keywords": ["stage production", "theater performance", "live drama", "playbill", "theatrical show"]
         }
     },
-    "home_service": ["plumbing", "electrician", "hvac", "appliance", "repair", "contractor", "cleaning", "maintenance"],
-    "professional_services": ["consultant", "lawyer", "accountant", "notary", "therapy", "translation", "professional", "service"],
+    "home_service": {
+        "_keywords": ["home services", "residential service", "home repair", "household improvement", "home maintenance"],
+
+        "ceiling_and_roofing_repair_and_service": {
+            "_keywords": ["roof repair", "ceiling repair", "roofing service"]
+        },
+        "chimney_service": {
+            "_keywords": ["chimney cleaning", "chimney inspection"]
+        },
+        "contractor": {
+            "_keywords": ["general contractor", "construction service"]
+        },
+        "damage_restoration": {
+            "_keywords": ["restoration", "water damage", "fire damage"]
+        },
+        "artificial_turf": {
+            "_keywords": ["artificial grass", "synthetic lawn"]
+        },
+        "bathroom_remodeling": {
+            "_keywords": ["bathroom renovation", "bath remodel"]
+        },
+        "bathtub_and_sink_repairs": {
+            "_keywords": ["sink repair", "bathtub repair", "plumbing fixture repair"]
+        },
+        "cabinet_sales_service": {
+            "_keywords": ["cabinet installation", "cabinet sales"]
+        },
+        "carpenter": {
+            "_keywords": ["carpentry", "custom woodwork"]
+        },
+        "carpet_cleaning": {
+            "_keywords": ["carpet cleaning", "rug cleaning"]
+        },
+        "carpet_installation": {
+            "_keywords": ["carpet installation", "floor covering"]
+        },
+        "childproofing": {
+            "_keywords": ["childproofing", "baby safety installation"]
+        },
+        "closet_remodeling": {
+            "_keywords": ["closet design", "closet remodeling"]
+        },
+        "countertop_installation": {
+            "_keywords": ["countertop installation", "kitchen counters"]
+        },
+        "deck_and_railing_sales_service": {
+            "_keywords": ["deck builder", "railing installation"]
+        },
+        "demolition_service": {
+            "_keywords": ["demolition", "structure removal"]
+        },
+        "door_sales_service": {
+            "_keywords": ["door installation", "door sales"]
+        },
+        "drywall_services": {
+            "_keywords": ["drywall", "wall repair", "sheetrock"]
+        },
+        "electrician": {
+            "_keywords": ["electrical repair", "licensed electrician"]
+        },
+        "excavation_service": {
+            "_keywords": ["excavation", "land clearing"]
+        },
+        "exterior_design": {
+            "_keywords": ["exterior design", "outdoor space planning"]
+        },
+        "fence_and_gate_sales_service": {
+            "_keywords": ["fence installation", "gate service"]
+        },
+        "fire_protection_service": {
+            "_keywords": ["fire safety", "sprinkler systems"]
+        },
+        "fireplace_service": {
+            "_keywords": ["fireplace repair", "chimney fireplace"]
+        },
+        "firewood": {
+            "_keywords": ["firewood delivery", "wood supplier"]
+        },
+        "foundation_repair": {
+            "_keywords": ["foundation repair", "basement support"]
+        },
+        "furniture_assembly": {
+            "_keywords": ["furniture assembly", "flat pack installation"]
+        },
+        "garage_door_service": {
+            "_keywords": ["garage door", "garage opener repair"]
+        },
+        "glass_and_mirror_sales_service": {
+            "_keywords": ["glass service", "mirror installation"]
+        },
+        "grout_service": {
+            "_keywords": ["grout cleaning", "tile grout repair"]
+        },
+        "gutter_service": {
+            "_keywords": ["gutter cleaning", "gutter installation"]
+        },
+        "handyman": {
+            "_keywords": ["handyman", "small repairs", "odd jobs"]
+        },
+        "holiday_decorating": {
+            "_keywords": ["holiday lights", "seasonal decorating"]
+        },
+        "home_automation": {
+            "_keywords": ["smart home", "home automation"]
+        },
+        "home_cleaning": {
+            "_keywords": ["house cleaning", "maid service"]
+        },
+        "home_energy_auditor": {
+            "_keywords": ["energy audit", "home efficiency inspection"]
+        },
+        "home_inspector": {
+            "_keywords": ["home inspection", "property inspection"]
+        },
+        "home_network_installation": {
+            "_keywords": ["home networking", "wifi installation"]
+        },
+        "home_security": {
+            "_keywords": ["home security", "alarm systems"]
+        },
+        "home_window_tinting": {
+            "_keywords": ["window tinting", "solar film"]
+        },
+        "house_sitting": {
+            "_keywords": ["house sitter", "home watching"]
+        },
+        "hvac_services": {
+            "_keywords": ["HVAC", "heating and cooling", "furnace repair"]
+        },
+        "insulation_installation": {
+            "_keywords": ["insulation", "attic insulation"]
+        },
+        "interior_design": {
+            "_keywords": ["interior design", "home decor planning"]
+        },
+        "irrigation": {
+            "_keywords": ["sprinkler systems", "lawn irrigation"]
+        },
+        "key_and_locksmith": {
+            "_keywords": ["locksmith", "key service", "lock repair"]
+        },
+        "kitchen_remodeling": {
+            "_keywords": ["kitchen remodel", "kitchen renovation"]
+        },
+        "lighting_fixtures_and_equipment": {
+            "_keywords": ["light installation", "home lighting"]
+        },
+        "masonry_concrete": {
+            "_keywords": ["masonry", "concrete service", "stonework"]
+        },
+        "mobile_home_repair": {
+            "_keywords": ["mobile home repair", "trailer home fix"]
+        },
+        "movers": {
+            "_keywords": ["moving service", "relocation help"]
+        },
+        "packing_services": {
+            "_keywords": ["packing service", "move packing"]
+        },
+        "painting": {
+            "_keywords": ["house painting", "interior painting", "exterior painting"]
+        },
+        "patio_covers": {
+            "_keywords": ["patio cover", "awning install"]
+        },
+        "plasterer": {
+            "_keywords": ["plastering", "wall finish"]
+        },
+        "pool_and_hot_tub_services": {
+            "_keywords": ["pool service", "hot tub repair"]
+        },
+        "pool_cleaning": {
+            "_keywords": ["pool cleaning", "pool maintenance"]
+        },
+        "pressure_washing": {
+            "_keywords": ["pressure wash", "power washing"]
+        },
+        "refinishing_services": {
+            "_keywords": ["surface refinishing", "resurfacing service"]
+        },
+        "security_systems": {
+            "_keywords": ["home security systems", "surveillance"]
+        },
+        "shades_and_blinds": {
+            "_keywords": ["window blinds", "shade installation"]
+        },
+        "shutters": {
+            "_keywords": ["window shutters", "shutter install"]
+        },
+        "siding": {
+            "_keywords": ["house siding", "vinyl siding", "exterior paneling"]
+        },
+        "solar_installation": {
+            "_keywords": ["solar panels", "solar energy install"]
+        },
+        "solar_panel_cleaning": {
+            "_keywords": ["solar panel cleaning", "solar maintenance"]
+        },
+        "structural_engineer": {
+            "_keywords": ["structural engineer", "building analysis"]
+        },
+        "stucco_services": {
+            "_keywords": ["stucco repair", "exterior finish"]
+        },
+        "television_service_providers": {
+            "_keywords": ["TV service", "cable provider"]
+        },
+        "tiling": {
+            "_keywords": ["tile installation", "tile setter"]
+        },
+        "wallpaper_installers": {
+            "_keywords": ["wallpaper hanging", "wallpaper removal"]
+        },
+        "washer_and_dryer_repair_service": {
+            "_keywords": ["appliance repair", "washer repair", "dryer repair"]
+        },
+        "water_heater_installation_repair": {
+            "_keywords": ["water heater", "hot water repair"]
+        },
+        "water_purification_services": {
+            "_keywords": ["water filter", "water purifier install"]
+        },
+        "waterproofing": {
+            "_keywords": ["basement waterproofing", "moisture barrier"]
+        },
+        "window_washing": {
+            "_keywords": ["window cleaning", "glass washing"]
+        },
+        "landscaping": {
+            "_keywords": ["landscaping", "yard service", "garden design"]
+        },
+        "plumbing": {
+            "_keywords": ["plumber", "pipe repair", "leak fixing"]
+        },
+        "windows_installation": {
+            "_keywords": ["window replacement", "window installation"]
+        }
+    },
+    "professional_services": {
+        "_keywords": ["professional services", "expert services", "specialized service", "consulting", "support service"],
+
+        "construction_installation_and_repair": {
+            "_keywords": [
+                "construction service", "repair service", "installation", "contracting", "technical repair",
+                "equipment maintenance", "mechanical services", "field repair"
+            ]
+        },
+        "it_software_and_technology": {
+            "_keywords": [
+                "IT services", "software development", "technology consulting", "hardware support",
+                "web services", "computer services", "digital infrastructure"
+            ]
+        },
+        "cleaning_maintenance_and_utilities": {
+            "_keywords": [
+                "cleaning", "janitorial", "waste removal", "maintenance", "utilities", "facility upkeep",
+                "environmental services"
+            ]
+        },
+        "business_and_admin_support": {
+            "_keywords": [
+                "business support", "administration services", "office operations", "financial services",
+                "compliance", "staffing solutions"
+            ]
+        },
+        "legal_financial_and_investigative": {
+            "_keywords": [
+                "legal help", "law services", "financial services", "compliance support", "investigation",
+                "legal consulting"
+            ]
+        },
+        "creative_media_and_design": {
+            "_keywords": [
+                "creative services", "media agency", "design service", "branding", "marketing content",
+                "visual design", "creative production"
+            ]
+        },
+        "entertainment_and_production": {
+            "_keywords": [
+                "entertainment", "production", "music service", "recording", "audio-visual services",
+                "talent agency"
+            ]
+        },
+        "sales_rental_and_delivery": {
+            "_keywords": [
+                "retail service", "sales support", "rental agency", "logistics", "delivery service",
+                "courier", "ecommerce logistics"
+            ]
+        },
+        "child_family_and_elder_support": {
+            "_keywords": [
+                "family services", "childcare", "elder care", "youth support", "family welfare"
+            ]
+        },
+        "dispute_and_documentation": {
+            "_keywords": [
+                "dispute resolution", "mediation", "public records", "legal documentation", "government paperwork"
+            ]
+        },
+        "education_and_personal_development": {
+            "_keywords": [
+                "education", "coaching", "personal growth", "life advice", "career counseling",
+                "language services"
+            ]
+        },
+        "fashion_accessories_and_restoration": {
+            "_keywords": [
+                "fashion repair", "accessory maintenance", "craft services", "textile work", "jewelry fix"
+            ]
+        },
+        "memorial_civic_and_spiritual": {
+            "_keywords": [
+                "memorial services", "community service", "spiritual service", "commemorative support"
+            ]
+        },
+        "emergency_rescue_and_protection": {
+            "_keywords": [
+                "emergency support", "rescue services", "safety service", "disaster recovery",
+                "hazard management", "security"
+            ]
+        },
+        "miscellaneous_and_niche_services": {
+            "_keywords": [
+                "niche service", "uncommon services", "specialized provider", "nontraditional service"
+            ]
+        }
+    },
     "structure_and_geography": {
         "_keywords": ["landmark", "structure", "geographic feature", "natural formation", "scenic", "terrain", "landform"],
     
