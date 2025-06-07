@@ -1,3 +1,17 @@
+#(C) Adam Axtopani Gonzales - SPR 2025
+
+"""
+This file defines the hierarchical category tree used for SBERT-based classification.
+
+Each category is defined as a nested dictionary structure. Subcategories are embedded under
+parent nodes, and each node can include an optional "_keywords" list to help boost
+classification performance using rule-based keyword matching.
+
+The top-level structure is used to embed categories, traverse layers, and apply hybrid scoring.
+
+Used by: sbert_classifier.py
+"""
+
 category_keywords = {
     "eat_and_drink": {
         "_keywords": ["restaurant", "menu", "food", "dining", "cuisine", "bar", "cafe", "grill", "buffet", "drinks", "meals"],
