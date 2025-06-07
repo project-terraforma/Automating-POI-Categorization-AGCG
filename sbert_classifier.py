@@ -21,9 +21,9 @@ def embed_tree_nodes_by_layer(tree, model):
     Traverses the hierarchical tree and encodes every node label using SBERT.
     Avoids encoding "_keywords" and skips duplicate keys.
 
-    Args:
-        tree (dict): The hierarchical category tree
-        model (SentenceTransformer): Pre-loaded SBERT model
+    Parameters:
+        tree (dict): Category tree
+        model (SentenceTransformer): SBERT model
 
     Returns:
         dict: Dictionary mapping node labels to embedding vectors
@@ -52,11 +52,15 @@ def embed_tree_nodes_by_layer(tree, model):
 
 def get_rule_score(description, node):
     """
-    Computes a keyword matching score between the input description and the keywords
-    found in the current and all descendant nodes of the tree.
+    Computes a keyword-based rule score by counting keyword matches in the given description.
+    Considers all keywords in the current and 1st layer of child nodes.
+
+    Parameters:
+        description (str): The input description to classify.
+        node (dict): A node from the category tree, potentially with '_keywords' and subcategories.
 
     Returns:
-        int: The total number of keyword matches found (can count duplicates)
+        int: The cumulative score based on keyword frequency.
     """
     desc = description.lower()
     score = 0
@@ -84,10 +88,13 @@ def get_rule_score(description, node):
 
 def normalize_scores(scores):
     """
-    Min-max normalization of scores to [0, 1] range.
+    Applies min-max normalization to an array of scores.
+
+    Parameters:
+        scores (list or np.ndarray): Raw score values to normalize.
 
     Returns:
-        np.array: Normalized scores
+        np.ndarray: Normalized scores in the range [0, 1].
     """
     min_s = np.min(scores)
     max_s = np.max(scores)
@@ -108,6 +115,15 @@ def classify_with_layered_tree_top_n(
     """
     Classifies a description down the tree by evaluating each layer's children
     using both semantic (SBERT) and rule-based scores.
+
+    Parameters:
+        description (str): Text description to classify.
+        tree (dict): Hierarchical category tree with nested dictionaries.
+        embeddings (dict): Precomputed embeddings for category labels.
+        model (SentenceTransformer): SBERT model used to encode the input description.
+        rule_weight (float): Weight to apply to the rule-based score relative to SBERT score.
+        top_n (int): Number of top candidates to return per level.
+        ambiguity_threshold (float): Threshold under which top-2 scores are considered ambiguous.
 
     Returns:
         str: Final predicted path as string
