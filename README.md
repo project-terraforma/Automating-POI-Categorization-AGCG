@@ -27,6 +27,7 @@ The model then uses Sentence-BERT (SBERT) embeddings to match this input against
 ## Authors
 
 Adam Axtopani Gonzales – adamurlnum2@gmail.com
+
 Carlos Garcia
 
 ## Version History
