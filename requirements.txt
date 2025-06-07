@@ -1,0 +1,7 @@
+requests
+beautifulsoup4
+pandas
+numpy
+sentence-transformers
+pyarrow          # for overturemaps Arrow batches
+overturemaps     # if available via pip
