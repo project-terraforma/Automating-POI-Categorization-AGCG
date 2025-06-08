@@ -636,7 +636,7 @@ category_keywords = {
             "_keywords": ["private tutor", "1-on-1 instruction", "individual tutoring"]
         },
         "school": {
-            "_keywords": ["elementary", "middle school", "high school", "public school", "K-12"]
+            "_keywords": ["school", "elementary", "middle school", "high school", "public school", "K-12", "preschool", "kindergarten", "8th", "5th"] 
         },
         "school_district_offices": {
             "_keywords": ["district headquarters", "school district", "school administration"]
@@ -1680,93 +1680,86 @@ category_keywords = {
         }
     },
     "professional_services": {
-        "_keywords": ["professional services", "expert services", "specialized service", "consulting", "support service"],
-
-        "construction_installation_and_repair": {
-            "_keywords": [
-                "construction service", "repair service", "installation", "contracting", "technical repair",
-                "equipment maintenance", "mechanical services", "field repair"
-            ]
-        },
-        "it_software_and_technology": {
-            "_keywords": [
-                "IT services", "software development", "technology consulting", "hardware support",
-                "web services", "computer services", "digital infrastructure"
-            ]
-        },
-        "cleaning_maintenance_and_utilities": {
-            "_keywords": [
-                "cleaning", "janitorial", "waste removal", "maintenance", "utilities", "facility upkeep",
-                "environmental services"
-            ]
-        },
-        "business_and_admin_support": {
-            "_keywords": [
-                "business support", "administration services", "office operations", "financial services",
-                "compliance", "staffing solutions"
-            ]
-        },
-        "legal_financial_and_investigative": {
-            "_keywords": [
-                "legal help", "law services", "financial services", "compliance support", "investigation",
-                "legal consulting"
-            ]
-        },
-        "creative_media_and_design": {
-            "_keywords": [
-                "creative services", "media agency", "design service", "branding", "marketing content",
-                "visual design", "creative production"
-            ]
-        },
-        "entertainment_and_production": {
-            "_keywords": [
-                "entertainment", "production", "music service", "recording", "audio-visual services",
-                "talent agency"
-            ]
-        },
-        "sales_rental_and_delivery": {
-            "_keywords": [
-                "retail service", "sales support", "rental agency", "logistics", "delivery service",
-                "courier", "ecommerce logistics"
-            ]
-        },
-        "child_family_and_elder_support": {
-            "_keywords": [
-                "family services", "childcare", "elder care", "youth support", "family welfare"
-            ]
-        },
-        "dispute_and_documentation": {
-            "_keywords": [
-                "dispute resolution", "mediation", "public records", "legal documentation", "government paperwork"
-            ]
-        },
-        "education_and_personal_development": {
-            "_keywords": [
-                "education", "coaching", "personal growth", "life advice", "career counseling",
-                "language services"
-            ]
-        },
-        "fashion_accessories_and_restoration": {
-            "_keywords": [
-                "fashion repair", "accessory maintenance", "craft services", "textile work", "jewelry fix"
-            ]
-        },
-        "memorial_civic_and_spiritual": {
-            "_keywords": [
-                "memorial services", "community service", "spiritual service", "commemorative support"
-            ]
-        },
-        "emergency_rescue_and_protection": {
-            "_keywords": [
-                "emergency support", "rescue services", "safety service", "disaster recovery",
-                "hazard management", "security"
-            ]
-        },
-        "miscellaneous_and_niche_services": {
-            "_keywords": [
-                "niche service", "uncommon services", "specialized provider", "nontraditional service"
-            ]
-        }
+        "_keywords": ["professional services", "specialized services", "expert service", "support services", "consulting", "technical service"],
+        
+        "cleaning_services": {"_keywords": ["cleaning service", "janitorial", "maid service"]},
+        "construction_services": {"_keywords": ["construction", "building service", "contracting"]},
+        "lawyer": {"_keywords": ["lawyer", "attorney", "legal counsel"]},
+        "event_planning": {"_keywords": ["event planning", "wedding planner", "party coordinator"]},
+        "funeral_services_and_cemeteries": {"_keywords": ["funeral", "cemetery", "memorial service"]},
+        "internet_service_provider": {"_keywords": ["internet provider", "ISP", "broadband service"]},
+        "it_service_and_computer_repair": {"_keywords": ["computer repair", "IT service", "tech support"]},
+        "junk_removal_and_hauling": {"_keywords": ["junk removal", "hauling", "trash pickup"]},
+        "laundry_services": {"_keywords": ["laundry", "dry cleaning", "clothing wash"]},
+        "legal_services": {"_keywords": ["legal services", "paralegal", "legal aid"]},
+        "musical_instrument_services": {"_keywords": ["instrument repair", "musical service"]},
+        "3d_printing_service": {"_keywords": ["3D printing", "rapid prototyping"]},
+        "acoustical_consultant": {"_keywords": ["acoustical consulting", "sound analysis"]},
+        "adoption_services": {"_keywords": ["adoption service", "family placement"]},
+        "advertising_agency": {"_keywords": ["advertising agency", "ad firm"]},
+        "copywriting_service": {"_keywords": ["copywriting", "content writing"]},
+        "internet_marketing_service": {"_keywords": ["online marketing", "digital ads"]},
+        "merchandising_service": {"_keywords": ["merchandising", "product display service"]},
+        "social_media_agency": {"_keywords": ["social media agency", "social campaign"]},
+        "after_school_program": {"_keywords": ["after-school program", "youth activities"]},
+        "bank_equipment_service": {"_keywords": ["bank equipment", "ATM service"]},
+        "air_duct_cleaning_service": {"_keywords": ["air duct cleaning", "vent cleaning"]},
+        "antenna_service": {"_keywords": ["antenna installation", "signal service"]},
+        "appliance_repair_service": {"_keywords": ["appliance repair", "home appliance service"]},
+        "appraisal_services": {"_keywords": ["appraisal", "valuation service"]},
+        "architect": {"_keywords": ["architect", "building design"]},
+        "architectural_designer": {"_keywords": ["architectural design", "space planning"]},
+        "art_restoration_service": {"_keywords": ["art restoration", "art conservation"]},
+        "awning_supplier": {"_keywords": ["awning installation", "canopy service"]},
+        "bail_bonds_service": {"_keywords": ["bail bonds", "bond service"]},
+        "bike_repair_maintenance": {"_keywords": ["bike repair", "bicycle maintenance"]},
+        "billing_services": {"_keywords": ["billing", "invoice processing"]},
+        "bookbinding": {"_keywords": ["bookbinding", "book repair"]},
+        "bookkeeper": {"_keywords": ["bookkeeping", "account record"]},
+        "bus_rentals": {"_keywords": ["bus rental", "charter bus"]},
+        "business_consulting": {"_keywords": ["business consulting", "business advisor"]},
+        "calligraphy": {"_keywords": ["calligraphy", "hand lettering"]},
+        "car_broker": {"_keywords": ["car broker", "auto sourcing"]},
+        "career_counseling": {"_keywords": ["career counseling", "job coach"]},
+        "carpet_dyeing": {"_keywords": ["carpet dyeing", "carpet color restore"]},
+        "cemeteries": {"_keywords": ["cemetery", "grave site"]},
+        "certification_agency": {"_keywords": ["certification", "accreditation"]},
+        "child_care_and_day_care": {"_keywords": ["child care", "day care"]},
+        "clock_repair_service": {"_keywords": ["clock repair", "timepiece repair"]},
+        "commercial_printer": {"_keywords": ["commercial printing", "print service"]},
+        "commercial_refrigeration": {"_keywords": ["commercial refrigeration", "cooling system repair"]},
+        "commissioned_artist": {"_keywords": ["commissioned artist", "custom artwork"]},
+        "community_book_boxes": {"_keywords": ["book box", "neighborhood library"]},
+        "community_gardens": {"_keywords": ["community garden", "urban gardening"]},
+        "computer_hardware_company": {"_keywords": ["computer hardware", "PC components"]},
+        "courier_and_delivery_services": {"_keywords": ["courier", "parcel delivery"]},
+        "crane_services": {"_keywords": ["crane rental", "lifting services"]},
+        "customs_broker": {"_keywords": ["customs broker", "import export services"]},
+        "delegated_driver_service": {"_keywords": ["designated driver", "drive home service"]},
+        "diamond_dealer": {"_keywords": ["diamond dealer", "gem sales"]},
+        "digitizing_services": {"_keywords": ["digitizing", "file conversion"]},
+        "donation_center": {"_keywords": ["donation drop-off", "charity center"]},
+        "duplication_services": {"_keywords": ["media duplication", "copy service"]},
+        "e_commerce_service": {"_keywords": ["ecommerce service", "online selling platform"]},
+        "editorial_services": {"_keywords": ["editorial", "proofreading", "editing"]},
+        "elder_care_planning": {"_keywords": ["elder care", "senior planning"]},
+        "electrical_consultant": {"_keywords": ["electrical consulting", "power systems planning"]},
+        "electronics_repair_shop": {"_keywords": ["electronics repair", "device fixing"]},
+        "elevator_service": {"_keywords": ["elevator repair", "lift maintenance"]},
+        "emergency_service": {"_keywords": ["emergency help", "emergency dispatch"]},
+        "employment_agencies": {"_keywords": ["employment agency", "job placement"]},
+        "engraving": {"_keywords": ["engraving", "etching service"]},
+        "environmental_abatement_services": {"_keywords": ["environmental abatement", "hazard removal"]},
+        "environmental_testing": {"_keywords": ["environmental testing", "pollution testing"]},
+        "farm_equipment_repair_service": {"_keywords": ["farm equipment repair", "tractor service"]},
+        "feng_shui": {"_keywords": ["feng shui", "space energy balancing"]},
+        "fingerprinting_service": {"_keywords": ["fingerprinting", "background check"]},
+        "food_and_beverage_consultant": {"_keywords": ["food consultant", "beverage expert"]},
+        "forestry_service": {"_keywords": ["forestry service", "tree survey"]},
+        "fortune_telling_service": {"_keywords": ["fortune telling", "psychic reading"]},
+        "furniture_rental_service": {"_keywords": ["furniture rental", "short-term furnishing"]},
+        "furniture_repair": {"_keywords": ["furniture repair", "furniture fixing"]},
+        "furniture_reupholstery": {"_keywords": ["reupholstery", "furniture fabric repair"]}
     },
     "structure_and_geography": {
         "_keywords": ["landmark", "structure", "geographic feature", "natural formation", "scenic", "terrain", "landform"],

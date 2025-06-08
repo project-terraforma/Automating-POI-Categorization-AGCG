@@ -65,16 +65,21 @@ def get_rule_score(description, node):
     desc = description.lower()
     score = 0
 
-    def collect_keywords(n):
+    def collect_keywords_and_names(n):
         if not isinstance(n, dict):
             return []
-        collected = list(n.get("_keywords", []))
-        for child in n:
-            if child != "_keywords" and isinstance(n[child], dict):
-                collected += collect_keywords(n[child])
-        return collected
 
-    all_keywords = collect_keywords(node)
+        keywords = list(n.get("_keywords", []))
+        names = []
+
+        for child in n:
+            if child != "_keywords":
+                names.append(child)  # treat subcategory names as keywords too
+                if isinstance(n[child], dict):
+                    keywords += collect_keywords_and_names(n[child])
+        return keywords + names
+
+    all_keywords = collect_keywords_and_names(node)
     word_freq = Counter(re.findall(r'\b\w+\b', desc))
 
     for keyword in all_keywords:
