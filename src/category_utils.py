@@ -1,11 +1,5 @@
 #(C) Adam Axtopani Gonzales - SPR 2025
 
-import json
-
-# Load the category tree from file
-with open("category_tree.json", "r") as f:
-    category_tree = json.load(f)
-
 """
 Prediction Testing Utilities
 These helper functions are used to validate and analyze predictions made by the 
