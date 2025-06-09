@@ -138,7 +138,7 @@ def extract_row_info(df, index=0):
         print(f"[ERROR] Could not extract row info: {e}")
         return None
 
-def evaluate_prediction_accuracy(results_df, model, tree, embeddings, clf_module, util_module, verbose=False):
+def evaluate_prediction_accuracy(results_df, model, tree, embeddings, clf_module, util_module, test_module, verbose=False):
     """
     Classifies each site using SBERT + rule scoring, and evaluates whether the predicted top-level
     category correctly matches the true category using hierarchical tree matching.
@@ -161,7 +161,7 @@ def evaluate_prediction_accuracy(results_df, model, tree, embeddings, clf_module
     correct = 0
 
     for i in range(len(results_df)):
-        row = util_module.extract_row_info(results_df, index=i)
+        row = test_module.extract_row_info(results_df, index=i)
 
         if not row or row["status"] != "success" or not row["text"].strip():
             continue
