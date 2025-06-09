@@ -24,7 +24,7 @@ The model then uses Sentence-BERT (SBERT) embeddings to match this input against
   - `jupyter` – local interactive development
   - `google-colab` – cloud-based alternative to Jupyter Notebooks
  
-### Settup
+### Setup
 1. Clone the repo
    ```sh
    git clone https://github.com/project-terraforma/Automating-POI-Categorization-AGCG.git
