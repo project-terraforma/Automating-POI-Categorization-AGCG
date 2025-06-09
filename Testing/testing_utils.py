@@ -1,7 +1,8 @@
 import pandas as pd
 import overturemaps
 import web_scraper as webScraper
-
+import category_utils as util
+import testing_utils as test
 
 def fetch_overture_poi_data(theme: str, bbox: tuple) -> pd.DataFrame:
     """
@@ -136,3 +137,75 @@ def extract_row_info(df, index=0):
     except Exception as e:
         print(f"[ERROR] Could not extract row info: {e}")
         return None
+
+def evaluate_prediction_accuracy(results_df, model, tree, embeddings, clf_module, util_module, verbose=False):
+    """
+    Classifies each site using SBERT + rule scoring, and evaluates whether the predicted top-level
+    category correctly matches the true category using hierarchical tree matching.
+
+    Parameters:
+        results_df (pd.DataFrame): Scraped website results.
+        model: SBERT model.
+        tree (dict): Category keyword hierarchy.
+        embeddings (dict): Embeddings of category nodes.
+        clf_module (module): Contains classify_with_layered_tree_top_n.
+        util_module (module): Contains is_prediction_correct(pred, true).
+        verbose (bool): If True, prints debug output.
+
+    Returns:
+        List[dict]: Classification + evaluation records, with "matches" based on subtree correctness.
+    """
+
+    output = []
+    total = 0
+    correct = 0
+
+    for i in range(len(results_df)):
+        row = util_module.extract_row_info(results_df, index=i)
+
+        if not row or row["status"] != "success" or not row["text"].strip():
+            continue
+
+        # Run SBERT tree classifier
+        pred_path, top_n_per_layer, is_ambiguous, ambiguous_layers = clf_module.classify_with_layered_tree_top_n(
+            description=row["text"],
+            tree=tree,
+            embeddings=embeddings,
+            model=model,
+            rule_weight=0.6,
+            top_n=3,
+            ambiguity_threshold=0.1
+        )
+
+        pred_top = pred_path.split(" > ")[0]
+        total += 1
+
+        # Logical check using is_prediction_correct
+        match_found = any(util_module.is_prediction_correct(pred_top, true_cat) for true_cat in row["categories"])
+        if match_found:
+            correct += 1
+
+        result = {
+            "name": row["name"],
+            "true_categories": row["categories"],
+            "predicted_path": pred_path,
+            "predicted_top_level": pred_top,
+            "matches": match_found,
+            "is_ambiguous": is_ambiguous,
+            "ambiguous_levels": ambiguous_layers,
+            "top_candidates_by_layer": top_n_per_layer,
+        }
+
+        if verbose:
+            print(f"\n{row['name']} - Predicted: {pred_top}")
+            print(f"True: {row['categories']}")
+            print(f"Match: {match_found}")
+            print("-" * 40)
+
+        output.append(result)
+
+    match_rate = (correct / total) * 100 if total > 0 else 0
+    print(f"\nMatch Accuracy: {correct}/{total} = {match_rate:.2f}%")
+
+    return output
+
