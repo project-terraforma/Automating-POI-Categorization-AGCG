@@ -23,6 +23,37 @@ The model then uses Sentence-BERT (SBERT) embeddings to match this input against
   - `requests` – makes HTTP calls to fetch POI websites
   - `jupyter` – local interactive development
   - `google-colab` – cloud-based alternative to Jupyter Notebooks
+ 
+### Settup
+1. Clone the repo
+   ```sh
+   git clone https://github.com/project-terraforma/Automating-POI-Categorization-AGCG.git
+   ```
+2. Navigate into the project directory
+   ```sh
+   cd Automating-POI-Categorization-AGCG
+   ```
+3. Install Python dependencies
+
+   Make sure you have a Python environment set up, then install required packages:
+   ```sh
+   pip install -r requirements.txt
+   ```
+5. Prevent accidental pushes to the base repository
+
+   Change the Git remote to your own fork or local version:
+   ```sh
+   git remote set-url origin https://github.com/<your-username>/<your-repo-name>.git
+   git remote -v  # Confirm the remote URL was updated
+   ```
+8. Start the project
+
+   Launch Jupyter Notebook and open the main notebook to begin:
+   ```sh
+   jupyter notebook
+   ```
+
+   Navigate to the notebooks/ folder and open main.ipynb.
 
 ## Authors
 
