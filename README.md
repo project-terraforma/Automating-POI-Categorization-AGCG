@@ -70,11 +70,13 @@ Carlos Garcia
 ## Acknowledgments
 
 ### [ Project Sponsor ] Overture Maps Foundation
-Sposnored this project and gave us the opportunity to approach this problem with their open source data
+
+Sponsored this project and gave us the opportunity to approach this problem with their open source data
 
 ### Overture Maps POC's from Microsoft Corporation 
 
-- Krill Fedotov, Marko Radoicic, & Nikola Bozovic
+Krill Fedotov, Marko Radoicic, & Nikola Bozovic
+
 A source of guidance and expertise when tackling this project together
 
 
